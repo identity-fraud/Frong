@@ -1,0 +1,48 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+
+body {
+  margin: 1rem;
+  line-height: 1.5;
+  color: white;
+    background-color:black;
+  font-family: Sans-serif
+    
+
+}
+/* heading2 {
+  margin: 1rem;
+  font-family: serif;
+  line-height: 1.5;
+  color: blue
+}ages and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+spanclass {
+  margin: 1rem;
+  line-height: 1.5;
+  color: green;
+    background-color:white;
+  font-family: Sans-serif}
+
+.hoi{color:lime}
+H1{border: 5px solid  blue;
+   margin:5px 0px 0px 250px;
+padding:0% 0% 0% 0%}
